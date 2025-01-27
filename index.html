@@ -8,165 +8,152 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-
-    <header>
-      <div class="navbar">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">JG</div>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
       </div>
-    </header>
+    </nav>
 
-    <section id="home" class="hero">
+    <section class="hero" id="home">
       <div class="hero-content">
-        <h1>Hi, I'm Jessica Dziedzorm Gogovi</h1>
+        <h1>Hello! I am Jessica Dziedzorm Gogovi</h1>
         <p>
-          I'm passionate about technology, education, and using innovative
-          solutions to solve real-world problems.
+          I am a Teaching Assistant and tech enthusiast with a passion for
+          making computer science accessible to all students.
         </p>
-        <a href="#about" class="btn-primary">Learn More</a>
+        <a href="#projects" class="btn btn-primary">View My Work</a>
       </div>
     </section>
 
-   
-    <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>
-        I'm a Teaching Assistant at the University of Cape Coast with expertise
-        in computer science, UX design, and machine learning. I am dedicated to
-        improving education through technology and solving complex problems with
-        coding. 
-      </p>
+    <section class="section" id="about">
+      <div class="section-title">
+        <h2>About Me</h2>
+      </div>
+      <div class="about-content">
+        <p class="highlight">
+          I am an aspiring computer science educator and a passionate tech
+          enthusiast with a Bachelor of Education in Computer Science. I work as
+          a Teaching Assistant at the University of Cape Coast, where I support
+          research methods, computer applications, and troubleshooting courses.
+          Additionally, I teach the basics of Excel, python and Power BI,
+          empowering learners with practical, .
+        </p>
+        <p>
+          My interests lie in machine learning, human-computer interaction
+          (HCI), and leveraging technology to improve education.I am committed
+          to nurturing the next generation of tech professionals, I aim to
+          bridge the gap between technology and education.
+        </p>
+      </div>
     </section>
 
-  
-    <section id="skills" class="section">
-      <h2>Skills</h2>
+    <section class="section" id="skills">
+      <div class="section-title">
+        <h2>Technical & Pedagogical Skills</h2>
+      </div>
       <div class="skills-grid">
-        <div class="skill">
-          <h3>Python</h3>
-          <p>
-            Python for software development and machine learning
-            applications.
-          </p>
+        <div class="skill-card">
+          <i class="fas fa-code skill-icon"></i>
+          <h3>Programming</h3>
+          <p>JavaScript, Python, Java, SQL</p>
         </div>
-        <div class="skill">
-          <h3>UX/UI Design</h3>
-          <p>
-            Passionate about creating user-centered designs with a focus on
-            accessibility and simplicity.
-          </p>
+        <div class="skill-card">
+          <i class="fas fa-chalkboard-teacher skill-icon"></i>
+          <h3>Education</h3>
+          <p>Lesson Planning, STEM integration, Research Methods</p>
         </div>
-        <div class="skill">
-          <h3>Machine Learning</h3>
-          <p>
-            Proficient in building models for predictive analytics and data
-            insights.
-          </p>
-        </div>
-        <div class="skill">
-          <h3>JavaScript</h3>
-          <p>
-            Experienced with front-end development using JavaScript for
-            interactive web applications.
-          </p>
+        <div class="skill-card">
+          <i class="fas fa-robot skill-icon"></i>
+          <h3>UI/UX Design</h3>
+          <p>Figma, Human Computer Interaction, User Centered Design</p>
         </div>
       </div>
     </section>
 
+    <section class="section" id="projects">
+  <div class="section-title">
+    <h2>Projects</h2>
+  </div>
 
-    <section id="experience" class="section">
-      <h2>Experience</h2>
-      <div class="experience-grid">
-        <div class="experience-item">
-          <h3>Teaching Assistant</h3>
-          <span>University of Cape Coast</span>
-          <p>
-            I assist in teaching courses on mathematics, ICT education, and data
-            science.
-          </p>
-        </div>
-        <div class="experience-item">
-          <h3>ICT Teacher</h3>
-          <span
-            >Mpfantsipim School <br />Mejjan Academy <br />Assemblies of God
-            Eduactional Complex</span
-          >
-          <p>
-            I taught ICT at Mpfantsipim School as an intern. I also taught ICT
-            to JHS and primary school students.
-          </p>
+    <div class="project-card">
+      <div class="project-image"></div>
+      <div class="project-content">
+        <h3>Student Success Prediction Model</h3>
+        <p>
+          A machine learning model designed to identify students at risk of dropping out or likely to graduate, utilizing multiple algorithms.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Education</span>
         </div>
       </div>
-    </section>
-
-
-    <section id="projects" class="section">
-      <h2>Projects</h2>
-      <div class="project-cards">
-        <div class="project-card">
-          <h3>Weather App</h3>
-          <p>
-            A website that shows the current waether in your location and a
-            5-day forecast.
-          </p>
-          <a
-            href="https://github.com/jadsika/finalprojectShecodes"
-            target="_blank"
-            class="btn-secondary"
-            >View Project</a
-          >
-        </div>
-        <div class="project-card">
-          <h3>Inventory Management System</h3>
-          <p>
-            A group project where we created a system for inventory tracking and
-            report generation.
-          </p>
-          <a
-            href="https://github.com/soloeinsteinmit/Inventory-System"
-            target="_blank"
-            class="btn-secondary"
-            >View Project</a
-          >
+    </div>
+    <div class="project-card">
+      <div class="project-image"></div>
+      <div class="project-content">
+        <h3>Loan Default Prediction Model</h3>
+        <p>
+          A machine learning model to predict borrower defaults using historical data, aiding in risk management for financial institutions.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Finance</span>
         </div>
       </div>
-    </section>
+    </div>
+    
+    <div class="project-card">
+      <div class="project-image"></div>
+      <div class="project-content">
+        <h3>Basic Inventory Management System</h3>
+        <p>
+          Developed a Python-based system for tracking inventory levels and generating reports, ensuring efficient stock management.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Inventory</span>
+          <span class="tag">Automation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
- 
-    <section id="contact" class="section">
-      <h2>Contact Me</h2>
-      <form>
+
+    <section class="section" id="contact">
+      <div class="section-title">
+        <h2>Get In Touch</h2>
+      </div>
+      <form class="contact-form">
         <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required />
+          <input type="text" placeholder="Your Name" required />
         </div>
         <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
+          <input type="email" placeholder="Your Email" required />
         </div>
         <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" required></textarea>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
         </div>
-        <button type="submit" class="btn-primary">Send Message</button>
+        <button type="submit" class="btn btn-primary">Send Message</button>
       </form>
     </section>
 
-    
     <footer>
-      <div class="footer-links">
-        <a href="https://github.com/jadsika" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/jadgogovi904" target="_blank"
-          >LinkedIn</a
-        >
+      <div class="social-links">
+        <a href="https://github.com/jadsika"><i class="fab fa-github">Github</a>
+        <a href="https://www.linkedin.com/in/jadgogovi904/"><i class="fab fa-linkedin">LinkedIn</a>
+        <a href="#"><i class="fab fa-twitter">Twitter</a>
       </div>
-      <p>&copy; 2025 Jessica Dziedzorm Gogovi. All rights reserved.</p>
+      <p>&copy; 2024 Jessica Gogovi. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
